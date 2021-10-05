@@ -1,0 +1,144 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+    <link rel="stylesheet" href="../CSS/Style.css">
+    <title>Contacto/creemosenti</title>
+    <link rel = "preconnect" href = "https://fonts.googleapis.com">
+    <link rel = "preconnect" href = "https://fonts.gstatic.com" crossorigin>
+    <link href = "https: //fonts.googleapis.com/css2? family = Source + Sans + Pro: ital, wght @ 0,200; 0,300; 0,400; 0,600; 0,700; 0,900; 1,200; 1,300; 1,400; 1,600; 1,700; 1,900 & display = swap " rel = "hoja de estilo">
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
+   <link rel="stylesheet" href="../CSS/contacto.css">
+  </head>
+  <body class="body_contacto">
+    <!-- comienza footer  -->
+    <div class="prueba"> 
+      <nav class="navbar navbar-expand-lg navbar-light" style="background-color: #007BFF;">
+       <div class="container-fluid">
+         <a class="navbar-brand" href="#">
+           <img src="../assets/img/CET LOGO recortado.png" alt="" width="100" height="35" style="margin-left: 10px;">
+         </a>
+         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+           <span class="navbar-toggler-icon"></span>
+         </button>
+         <div class="collapse navbar-collapse" id="navbarSupportedContent">
+           <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+             <li class="nav-item">
+               <a class="nav-link active" aria-current="page" href="../index.html">Inicio</a>
+             </li>
+             <li class="nav-item">
+               <a class="nav-link" href="/pages/contacto.html">Contacto</a>
+             </li>
+             <li class="nav-item dropdown">
+               <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                 Coaching
+               </a>
+               <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                 <li><a class="dropdown-item" href="../pages/coaching-personal.html">Coaching Personal</a></li>
+                 <li><a class="dropdown-item" href="../pages/coaching-empresas.html">Coaching Empresarial</a></li>
+               </ul>
+             </li>
+             <li class="nav-item">
+               <a class="nav-link" href="../pages/cursos.html">Cursos</a>
+             </li>
+           </ul>
+           <form class="d-flex">
+             <input class="form-control me-2" type="search" placeholder="Busca tu curso..." aria-label="Search">
+             <button class="btn btn-outline-success" type="submit">Buscar</button>
+             <a class="nav-link active" aria-current="page" href="../pages/registro.html">Registrarse</a>
+             <a class="nav-link active " aria-current="page" href="../pages/ingreso.html">Ingresar</a>
+           </form>
+         </div>
+       </div>
+     </nav>
+   </div>
+<!-- comienza formulario de contacto -->
+  <div class="content formulario_de_contacto">
+    
+    <div class="container ">
+      <div class="row align-items-stretch no-gutters contact-wrap">
+        <div class="col-md-8">
+          <div class="form h-100 titulo_formulario_de_contacto">
+            <h3">LLENE EL FORMULARIO DE CONTACTO</h3>
+            <form class="mb-5" method="post" id="contactForm" name="contactForm">
+              <div class="row">
+                <div class="col-md-6 form-group mb-5">
+                  <label for="" class="col-form-label">Nombre *</label>
+                  <input type="text" class="form-control" name="name" id="name" placeholder="Ingrese su nombre">
+                </div>
+                <div class="col-md-6 form-group mb-5">
+                  <label for="" class="col-form-label">Email *</label>
+                  <input type="text" class="form-control" name="email" id="email"  placeholder="Ingrese su correo electronico">
+                </div>
+              </div>
+
+              <div class="row">
+                <div class="col-md-6 form-group mb-5">
+                  <label for="" class="col-form-label">Telefono</label>
+                  <input type="text" class="form-control" name="phone" id="phone"  placeholder="Ingrese su número de telefono">
+                </div>
+                <div class="col-md-6 form-group mb-5">
+                  <label for="" class="col-form-label">País</label>
+                  <input type="text" class="form-control" name="country" id="country"  placeholder="Ingrese su País/localidad">
+                </div>
+              </div>
+
+              <div class="row">
+                <div class="col-md-12 form-group mb-5">
+                  <label for="message" class="col-form-label">Mensaje *</label>
+                  <textarea class="form-control" name="message" id="Mensaje" cols="30" rows="4"  placeholder="Escriba aquí su mensaje"></textarea>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-md-12 form-group">
+                  <input type="submit" value="ENVIAR MENSAJE" class="btn btn-primary rounded-0 py-2 px-4">
+                  <span class="submitting"></span>
+                </div>
+              </div>
+            </form>
+
+            <div id="form-message-warning mt-4"></div> 
+            <div id="form-message-success">
+              Su mensaje fue enviado con exito, muchas gracias!
+            </div>
+
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="contact-info h-100">
+            <h3>Información de contacto</h3>
+            <p class="mb-5">Su Informaión está segura con nosotros</p>
+            <ul class="list-unstyled">
+              <li class="d-flex">
+                <span class="wrap-icon icon-room mr-3"></span>
+                <span class="text">Montevideo, Uruguay</span>
+              </li>
+              <li class="d-flex">
+                <span class="wrap-icon icon-phone mr-3"></span>
+                <span class="text">+598 94477512</span>
+              </li>
+              <li class="d-flex">
+                <span class="wrap-icon icon-envelope mr-3"></span>
+                <span class="text">info@creemosenti.com</span>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+    <!-- COMIENZAN LOS SCRIPTS -->
+    <script src="js/jquery-3.3.1.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/jquery.validate.min.js"></script>
+    <script src="js/main.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous"></script>
+  </body>
+</html>

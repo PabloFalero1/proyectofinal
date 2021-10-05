@@ -1,0 +1,630 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+html {
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+body {
+    margin: 0px;
+}
+
+#Lista1 li {
+    list-style: none;
+    list-style-type: none;
+    display: inline;
+    padding-right: 0.5em;
+    text-align: left;
+}
+
+#Lista2 {
+    text-align: right;
+}
+
+#Lista2 li{
+    list-style: none;
+    list-style-type: none;
+    display: inline;
+    padding-right: 0.5em;
+    text-align: right;
+    word-spacing: 10px;
+}
+
+.boton_de_mas_informacion {
+    background: #007BFF;
+    color: white ;
+    cursor: pointer;
+}
+
+.los_tres_mejores_cursos_titulos{
+    font-size: 30px;
+    background-color: #CFD1D4;
+    color: #343A40;
+}
+
+.los_tres_mejores_cursos_detalles {
+    background-color: #CFD1D4;
+    color: #343A40;
+}
+
+.boton_de_ver_mas_cursos {
+    background: #007BFF;
+    color: white ;
+    cursor: pointer;
+}
+
+.seccion_de_informacion div {
+    background-color: #D6D8D9;
+    font-size: 20px;
+    display: flex;
+    flex-direction: row;;
+    align-items: center;
+}
+
+.seccion_de_contacto {
+    background-image: url(../assets/img/fondo\ contacto.jpg);
+    color: #343A40;
+    background-repeat: no-repeat;
+    background-size: 1700px;
+    background-position: center;
+    height: 800px;
+}
+
+.pie_de_pagina {
+    background: rgb(0,123,255);
+    background: rgba(86,86,86,1);
+    color: white;
+    font-size: 25px;
+    text-align: center;
+
+}
+
+.pie_de_pagina h6 {
+    font-size: 13px;
+}
+
+.titulo_principal {
+    font-weight: 800;
+    font-size: 50px;
+    text-align: center;
+    margin-top: 200px
+}
+
+.buscador {
+    text-align: center
+}
+
+.Contactenos_Usted {
+    padding-left: 100px;
+}
+
+.Contactemos_Nosotros {
+    text-align: end;
+    padding-right: 150px;
+}
+
+.Lista_de_contactos {
+    list-style: none;
+}
+
+.Lista_de_contactos li{
+    display: inline;
+    padding-left: 100px;
+}
+
+.Lista_pie_de_pagina {
+    text-align: center;
+    list-style-type: none;
+}
+
+.Lista_pie_de_pagina li {
+    display: inline;
+}
+
+.Main {
+    background-image: url(../assets/img/fondo\ 3.jpeg);
+    background-position: center;
+    background-size: 1700px;
+}
+
+.Seccion_cursos {
+    text-align: center;
+}
+
+.Registro_Logo {
+    text-align: center;
+}
+
+.Registro_Datos {
+    text-align: center
+}
+
+.Registrese_Parrafo1 {
+    text-align: center;
+}
+
+.Ingreso_Logo {
+    text-align: center;
+}
+
+.Ingreso_Parrafo1 {
+    text-align: center;
+}
+
+.Ingreso_Datos {
+    text-align: center;
+}
+
+.Cursos_Seccion_Principal {
+    text-align: center;
+}
+
+.Cursos_parrafo_final {
+    text-align: center;
+}
+
+.CEmpresas_seccion3 {
+    display: flex;
+	flex-direction: column;
+	padding: 20px;
+    text-align: center;
+    background-color: #E5E8E9;
+}
+
+.CEmpresas_seccion2 {
+    display: flex;
+	flex-direction: row;
+	padding: ;
+    text-align: center;
+    background-color: #D6D8D9;
+    text-align: left;
+    font-size: 23px;
+    margin-top: 50px;
+}
+
+.CEmpresas_seccion1 {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.CEmpresas_seccion3 {
+   display: flex;
+   flex-direction: column;
+   text-align: center;
+}
+
+.CEmpresas_seccion3_textos {
+    display: flex;
+    flex-direction: row;
+    text-align: left;
+}
+
+.CEmpresas_seccion4 {
+    text-align: center;
+}
+
+/* Aqui comienza a aplicar GRIDS */
+
+.Cursos_tabla1 td {
+    border: solid 1px black;
+}
+
+.Cursos_tabla2 td {
+    border: solid 1px black;
+}
+
+.Cursos_tabla3 td {
+    border: solid 1px black;
+}
+
+.Cursos_tabla1_grid {
+    display: grid;
+    grid-template-columns: 3fr 3fr 3fr;
+    grid-template-rows: 3fr 3fr 3fr;
+    gap: 0px 0px;
+    grid-template-areas:
+    "Cursos_tabla1_grid1 Cursos_tabla1_grid2 Cursos_tabla1_grid3"
+    "Cursos_tabla2_grid1 Cursos_tabla2_grid2 Cursos_tabla2_grid3"
+    "Cursos_tabla3_grid1 Cursos_tabla3_grid2 Cursos_tabla3_grid3";
+}
+.Cursos_tabla1_grid1 {
+    grid-area: Cursos_tabla1_grid1;
+}
+.Cursos_tabla1_grid2 {
+     grid-area: Cursos_tabla1_grid2;
+}
+.Cursos_tabla1_grid3 {
+    grid-area: Cursos_tabla1_grid3;
+}
+
+.Cursos_tabla2_grid1 {
+    grid-area: Cursos_tabla2_grid1;
+}
+.Cursos_tabla2_grid2 {
+     grid-area: Cursos_tabla2_grid2;
+}
+.Cursos_tabla2_grid3 {
+    grid-area: Cursos_tabla2_grid3;
+}
+
+.Cursos_tabla3_grid1 {
+    grid-area: Cursos_tabla3_grid1;
+}
+.Cursos_tabla3_grid2 {
+     grid-area: Cursos_tabla3_grid2;
+}
+.Cursos_tabla3_grid3 {
+    grid-area: Cursos_tabla3_grid3;
+}
+
+.Seccion_tablas_grid div{
+    border: solid 0.1px black;
+}
+
+.Cursos_tablas {
+    display: flex;
+    flex-direction: row;
+    margin: 25px;
+    text-align: left;
+    align-items: center;
+}
+
+
+/* Aca comienzan los media queris */
+
+/* media queri para PC */
+@media only screen and (min-width:1240px){
+.barra_de_navegacion_principal {
+    background: #007BFF;
+    text-decoration: none;
+    list-style: none;
+    list-style-type: none;
+}
+
+.barra_de_navegacion_principal a {
+    color: white;
+    text-decoration: none;
+}
+.SubMenuCoaching {
+    display:none;
+	position:absolute;
+	min-width:300px;
+    cursor: pointer;
+}
+
+.SubMenuCoaching1:hover > ul {
+    display: block;
+    position:absolute;
+    display:flex;
+    flex-direction: column;
+    margin-left: 145px;
+}
+
+.SubMenuCoaching1 a {
+    cursor: pointer;
+}
+
+
+.barra_de_navegacion_principal {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 75px;
+}
+
+.boton_de_informacion {
+    text-align: center;
+    margin-top: 70px;
+    margin-left: 200px;
+}
+
+.flecha_main {
+    text-align: center;
+    margin-top: 150px;
+}
+
+.flecha_main img {
+    width: 100px;
+    height: 100px;
+}
+
+.seccion_contacto {
+    background-image: url(../assets/img/fondo\ contacto.jpg);
+    height: 970px;
+    width: 1900px;
+    background-position: center;
+}
+
+.imagen_mejores_cursos {
+    height: 300px;
+    width: 100%;
+}
+
+.botones_mas_cursos {
+    position: absolute;
+    bottom: 15px;
+    left: 15px;
+}
+
+.texto_de_mas_cursos {
+    padding-bottom: 40px;
+}
+
+}
+
+/* media queri para Tablet */
+@media only screen and (min-width:768px) and (max-width:1234px){
+
+}
+
+/* media queri para Movil */
+@media only screen and (min-width:0px) and (max-width:767px){
+.barra_de_navegacion_principal {
+    background: #007BFF;
+    text-decoration: none;
+    list-style: none;
+    list-style-type: none;
+}
+
+.barra_de_navegacion_principal a {
+    color: white;
+    text-decoration: none;
+}
+.SubMenuCoaching {
+    display:none;
+    position:absolute;
+    min-width:300px;
+    cursor: pointer;
+}
+
+.SubMenuCoaching1:hover > ul {
+    display: block;
+    position:absolute;
+    display:flex;
+    flex-direction: column;
+    margin-left: 145px;
+}
+
+.SubMenuCoaching1 a {
+    cursor: pointer;
+}
+
+
+.barra_de_navegacion_principal {
+    display: grid;
+    grid-auto-flow: column;
+    align-items: center;
+
+}
+
+.titulo_principal {
+    font-size: 50px;
+}
+
+.subtitulo_principal {
+    font-size: 20px;
+    text-align: center;
+}
+
+.contenedor_de_boton_mas_informacion {
+    text-align: center;
+    margin-bottom: 15px;
+    margin-top: 5px;
+}
+.Main {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.buscador {
+    display: none;
+}
+#Lista1 {
+    word-spacing: 40px;
+}
+
+.btn-outline-success {
+    display: none;
+}
+
+.me-2 {
+    display: none;
+}
+
+.titulo_principal {
+    margin: 0%;
+    margin-right: 90px;
+    margin-top: 50px;
+}
+
+.subtitulo_principal {
+    margin: 0% !important ;    
+}
+
+.boton_de_informacion {
+    text-align: center;
+    margin-top:50px;
+}
+
+.flecha_main {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.flecha_main img {
+    width: 100px;
+    height: 100px;
+}
+
+.navbar-nav li a {
+    margin-left: 10px !important ;
+}
+
+.d-flex {
+    flex-direction: column;
+}
+ 
+.main {
+    height: 800px !important;
+}
+
+.boton_de_mas_cursos {
+    text-align: center;
+}
+
+.pnl_inmedito {
+    display: none;
+}
+
+.seccion_contacto_comunicate {
+    text-align: center;
+    margin-top: 30px;
+    padding: 0%;
+}
+
+.seccion_contacto_comunicate h2 {
+    font-weight: 700;
+}
+
+.seccion_contacto_movil {
+    background-color: #9fa9b4;
+}
+
+.Lista_de_contactos li{
+   padding-left: 0px;
+   word-spacing: 50px;
+}
+
+.seccion_contacto_comunicarnos {
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    background-color: #9fa9b4;
+}
+
+.seccion_contacto_comunicarnos h2 {
+    font-weight: 700;
+}
+
+}
+/* termina media queris */
+
+
+.boton_de_mas_informacion:hover {
+    transform: scale(2.2);
+    background-color: #0116FF;
+}
+
+.boton_de_ver_mas_cursos:hover {
+    transform: scale(2.2);
+    background-color:#0116FF;
+}
+
+@keyframes saltar_boton {
+    0% {height: 50px;}
+    50% {height: 100px;}
+    100% {height: 50px;}
+}
+
+.boton_de_wpp:hover {
+    animation-name: saltar_boton;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in;
+    animation-duration: 2s;
+    animation-delay: 0s;
+}
+
+.boton_de_messenger:hover {
+    animation-name: saltar_boton;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in;
+    animation-duration: 2s;
+    animation-delay: 0s;
+}
+
+.boton_de_telefono:hover {
+    animation-name: saltar_boton;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in;
+    animation-duration: 2s;
+    animation-delay: 0s;
+}
+
+.boton_de_formulario:hover {
+    animation-name: saltar_boton;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in;
+    animation-duration: 2s;
+    animation-delay: 0s;
+}
+ .navbar-nav li a {
+     color: #ffff !important;
+     margin-left: 100px;
+ }
+
+ .dropdown-menu li a {
+     color: black !important;
+ }
+
+ .btn-outline-success {
+     color: #ffff;
+     border-color: #ffff;
+     margin-right: 100px;
+ }
+
+ .active {
+     color: #ffff;
+     margin-right: 100px;
+ }
+
+ .dropdown-menu li a{
+     margin-left: 0px;
+ }
+
+.subtitulo_principal {
+    font-size: 30px;
+    text-align: center;
+    margin-top: 70px;
+    margin-left: 200px;
+}
+
+
+.main {
+    background-image: url(../assets/img/fondo\ 3.jpeg);
+    background-position: center;
+    height: 990px;
+}
+
+.cursos_destacados_h2 {
+    margin-top: 50px;
+    text-align: center
+}
+
+.seccion_cursosdestacados {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.titulo_principal {
+    margin-left: 103px;
+}
+
+/* style de paginas bootstrap */
+.bd-placeholder-img {
+    font-size: 1.125rem;
+    text-anchor: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    user-select: none;
+  }
+
+  @media (min-width: 768px) {
+    .bd-placeholder-img-lg {
+      font-size: 3.5rem;
+    }
+  }
+
+
+  
