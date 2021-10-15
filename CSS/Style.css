@@ -1,10 +1,11 @@
 * {
-	margin: 0;
-	padding: 0;
+	margin: 0px;
+	padding: 0px;
 }
 
 html {
     font-family: 'Source Sans Pro', sans-serif;
+    margin-right: 0px;
 }
 
 body {
@@ -353,6 +354,43 @@ body {
     padding-bottom: 40px;
 }
 
+.imagen_coaching_personal {
+    width: 900px;
+    height: 650px;
+}
+
+.texto_coachin_empresas {
+    font-size: 21px;
+}
+
+.contenedor_imagen_coach_empresa {
+    height: 100%;
+    width: 100%;
+}
+
+.texto_secundario_empresas {
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.texto_final_empresas {
+    text-align: center;
+    background-color: #D6D8D9;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 0px;
+    padding-right: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
+.texto_principal_seccion3_empresas {
+    font-size: 28px;
+}
+
 }
 
 /* media queri para Tablet */
@@ -506,6 +544,57 @@ body {
 
 .seccion_contacto_comunicarnos h2 {
     font-weight: 700;
+}
+
+.imagen_coaching_personal {
+    width: 100%;
+    height: 100%;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+.texto_seccion_coaching_personal {
+    font-size: 17px !important
+}
+
+.texto_coachin_personal {
+    font-size: 17px !important
+}
+
+.contenedor_imagen_coach_personal {
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+.imagen_mejores_cursos {
+    height: 100%;
+}
+
+.contenedor_imagen_coach_empresa {
+    height: 100%;
+    width: 100%;
+}
+
+.texto_coachin_empresas {
+    font-size: 17px;
+}
+
+.texto_secundario_empresas {
+    background-color: #D6D8D9;
+    text-align: center;
+    font-weight: 600;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    margin-bottom: 15px;
+}
+
+.texto_final_empresas {
+    text-align: center;
+    font-size: 17px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
 }
 
 }
