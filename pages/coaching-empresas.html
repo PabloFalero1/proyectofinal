@@ -10,6 +10,7 @@
     <link rel = "preconnect" href = "https://fonts.googleapis.com">
     <link rel = "preconnect" href = "https://fonts.gstatic.com" crossorigin>
     <link href = "https: //fonts.googleapis.com/css2? family = Source + Sans + Pro: ital, wght @ 0,200; 0,300; 0,400; 0,600; 0,700; 0,900; 1,200; 1,300; 1,400; 1,600; 1,700; 1,900 & display = swap " rel = "hoja de estilo">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="../CSS/Style.css">
     <link
     rel="stylesheet"
@@ -62,11 +63,11 @@
          </div>
     </header>
     <!-- comienza seccion principal -->
-    <section class="CEmpresas_seccion1">
+    <section class="CEmpresas_seccion1 animate__animated animate__fadeInLeftBig animate__slow">
         <h1>SESIONES DE COACHING EMPRESARIAL</h1>
         <div>
-            <img src="../assets/png/chevron-abajo.png" alt="flecha" height="100px">
-        </div>
+          <img class="animate__animated animate__fadeOutDown animate__infinite animate__slow" src="../assets/png/chevron-abajo.png" alt="flecha" height="75px">
+      </div>
         <h2>Coaching empresarial: motivación y crecimiento</h2>
       </section>
       <section class="CEmpresas_seccion2">
@@ -128,7 +129,7 @@
               Virtual (vía Zoom) desde cualquier lugar del mundo.</h2>
           </div>   
           <div class="boton_reserva_hoy">
-                <button type="submit" class="btn btn-primary btn-lg">
+                <button type="submit" class="btn btn-primary btn-lg" data-aos="zoom-in">
                    RESERVA HOY
                 </button>
           </div>
@@ -157,5 +158,9 @@
         </footer>    
         <!-- comienzan los Scripts -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
 </body>
 </html>
