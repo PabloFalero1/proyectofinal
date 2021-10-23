@@ -438,7 +438,8 @@ body {
 }
 
 .titulo_principal {
-    font-size: 50px;
+    text-align: center;
+    font-size: 40px;
 }
 
 .subtitulo_principal {
@@ -472,7 +473,6 @@ body {
 
 .titulo_principal {
     margin: 0%;
-    margin-right: 90px;
     margin-top: 50px;
 }
 
@@ -482,12 +482,12 @@ body {
 
 .boton_de_informacion {
     text-align: center;
-    margin-top:50px;
+    margin-top:250px;
 }
 
 .flecha_main {
     text-align: center;
-    margin-top: 50px;
+    margin-top: 0px;
 }
 
 .flecha_main img {
@@ -504,6 +504,7 @@ body {
 }
  
 .main {
+    text-align: center;
     height: 800px !important;
 }
 
@@ -601,6 +602,10 @@ body {
 .seccion_de_informacion_al_usuario {
     background-color: #9fa9b4;
     margin-top: 40px;
+}
+
+.main {
+    height: 600px !important
 }
 
 }
@@ -702,7 +707,7 @@ body {
 }
 
 .titulo_principal {
-    margin-left: 103px;
+  text-align: center;
 }
 
 /* style de paginas bootstrap */
