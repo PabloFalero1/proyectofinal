@@ -35,32 +35,22 @@
             <span class="navbar-toggler-icon"></span>
           </button>
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <ul class="listamenu navbar-nav me-auto mb-2 mb-lg-0">
               <li class="nav-item">
                 <a class="nav-link active" aria-current="page" href="index.html">Inicio</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="pages/contacto.html">Contacto</a>
               </li>
-              <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                  Coaching
-                </a>
-                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                  <li><a class="dropdown-item" href="pages/coaching-personal.html">Coaching Personal</a></li>
-                  <li><a class="dropdown-item" href="pages/coaching-empresas.html">Coaching Empresarial</a></li>
-                </ul>
-              </li>
               <li class="nav-item">
                 <a class="nav-link" href="pages/cursos.html">Cursos</a>
               </li>
-            </ul>
-            <form class="d-flex">
-              <input class="form-control me-2" type="search" placeholder="Busca tu curso..." aria-label="Search">
-              <button class="btn btn-outline-success" type="submit">Buscar</button>
-              <a class="nav-link active" aria-current="page" href="pages/registro.html">Registrarse</a>
-              <a class="nav-link active " aria-current="page" href="pages/ingreso.html">Ingresar</a>
-            </form>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="pages/registro.html">Registrarse</a>
+              </li>
+              <li class="nav-item">  
+                <a class="nav-link active " aria-current="page" href="pages/ingreso.html">Ingresar</a>
+              </li>
           </div>
         </div>
       </nav>
@@ -69,14 +59,13 @@
     <main class="main">
       <div class="container">
           <div class="row">
-            <div class="col-md-6">
-            </div>
-            <div class="col-md-6 col-xs-12">
-              <h1 class="titulo_principal" data-aos="fade-left" data-aos-duration="2000">CAMBIA TU MANERA<br>DE VER LA VIDA</h1>
-              <H2 class="subtitulo_principal" data-aos="fade-right" data-aos-duration="2000">En Cet te acompañamos en el camino <br>¡Inscribite hoy mismo y comienza el cambio!</H2>
+            <div class="col-md-12 col-xs-12">
+              <h1 class="titulo_principal" data-aos="fade-left" data-aos-duration="2000">CAMBIA TU MANERA DE VER LA VIDA CON PNL</h1>
               <div class="boton_de_informacion" data-aos="fade-up"
               data-aos-anchor-placement="top-bottom" data-aos-duration="2000">
+              <a href="#masinfo">
                 <button type="button" class="btn btn-primary btn-lg">MAS INFORMACIÓN</button>
+              </a>
               </div>
             </div>
           </div>
@@ -98,7 +87,7 @@
                     <img src="assets/img/El exito está en ti.jpg" class="card-img-top imagen_mejores_cursos" alt="El exito está en ti">
                   
                     <div class="card-body">
-                      <h5 class="card-title">EL éxito está en ti</h5>
+                      <h5 class="card-title">El éxito está en ti</h5>
                       <p class="card-text">Un curso que te enseñará cual es el Patrón para activar tu Éxito desde el ADN de tus células .Permitiendo así, que durante la reproducción celular (Mitosis) se programe el éxito a la nueva célula. Logrando integrar en tu bioquímica celular los resultados y el éxito que siempre has deseado y lograr mantener este estado que llamamos ÉXITO PERMANENTE</p>
                       <!-- Button trigger modal -->
                         <button type="button" class="btn btn-primary botones_mas_cursos" data-bs-toggle="modal" data-bs-target="#exampleModal">
@@ -201,7 +190,7 @@
         </div>
       </section>
       <!-- comienza seccion de informacion -->
-      <section class="seccion_de_informacion_al_usuario" >
+      <section id="masinfo" class="seccion_de_informacion_al_usuario" >
         <div class="container">
           <div class="row">
             <div class="col-md-6 col-xs-12 d-flex align-items-center">
@@ -237,7 +226,7 @@
       <section class="seccion_contacto">
         <div class="container-fluid">
           <div class="row"> 
-            <div class="col-md-6 seccion_contacto_movil">
+            <div class="col-md-12 seccion_contacto_movil">
              <div class="seccion_contacto_comunicate">
                 <div>
                   <h2>¿TE GUSTARÍA HABLAR CON NOSOTROS?</h2>
@@ -264,15 +253,6 @@
                 </div>
               </div>
             </div>   
-            <div class="col-md-6 seccion_contacto_comunicarnos">
-              <h2>¿TE GUSTARÍA QUE TE CONTACTEMOS?</h2>
-              <H4>Envía un formulario y a la brevedad te contactaremos</H4>
-              <div class="div_boton_de_formulario" >
-                  <a href="pages/contacto.html">
-                      <img class="boton_de_formulario animate__animated animate__pulse animate__infinite" src="assets/png/sobre.png" alt="formulario" height="50px">
-                  </a>
-              </div>
-            </div>  
           </div>
         </div>
       </section>

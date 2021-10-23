@@ -240,11 +240,11 @@ a, a:hover {
 /* media queri para PC */
 @media only screen and (min-width: 1240px) {
   .seccion_contacto_comunicate {
-    position: relative;
-    top: 250px;
-    left: 50px; }
-    .seccion_contacto_comunicate h4 {
-      margin-left: 150px; }
+    text-align: center; }
+    .seccion_contacto_comunicate h2 {
+      font-weight: 700;
+      font-size: 40px;
+      margin-top: 100px; }
   .seccion_contacto_comunicarnos {
     position: relative;
     top: 250px;
@@ -270,7 +270,9 @@ a, a:hover {
     padding-top: 10px;
     padding-bottom: 10px; }
   .boton_de_formulario {
-    padding: 0px; } }
+    padding: 0px; }
+  .listamenu li a {
+    margin-left: 200px; } }
 
 .titulo_de_seccion_todos_los_cursos {
   text-align: center;
